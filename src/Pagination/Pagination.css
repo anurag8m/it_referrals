@@ -1,0 +1,14 @@
+.pagination {
+    position: absolute;
+    left: 20%;
+    transform: translate(50%);
+}
+
+@media screen and (max-width: 900px) {
+    .pagination {
+        font-size: 13px;
+        position: absolute;  
+        left: -25%;
+        transform: translate(50%);
+    }
+}

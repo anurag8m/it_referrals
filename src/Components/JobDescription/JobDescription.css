@@ -1,0 +1,60 @@
+.line-break { 
+    border-top: 2px solid #2b96cd;
+    margin: 1em 0; 
+    padding: 0; 
+}
+
+.job-details {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.job-details i {
+    color: #2b96cd;
+}
+
+.full-time {
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    padding: 1px 8px;
+    background: rgb(45, 152, 204);
+}
+
+.job-desc {
+    padding: 20px 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #dddddd;
+    box-shadow: 1px 1px #dddddd;
+}
+
+.job-desc h5 {
+    font-size: 16px;
+}
+
+.job-desc p {
+    font-size: 16px;
+}
+
+.objectives {
+    padding-inline-start: 20px;
+}
+
+.objectives li {
+    font-size: 14px;
+}
+
+.refer-for-job {
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: #2b96cd;
+    border-radius: 25px;
+}
+
+.refer-for-job:hover {
+    color: white;
+    /* background: white;
+    border: 1px solid #2b96cd; */
+}

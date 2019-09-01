@@ -1,0 +1,306 @@
+.homepage-top-image {
+    width: 100%;
+}
+.padding-class {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.bg-1  {
+    border: solid 1px #dad4d4;
+    
+}
+.bg-2  {
+    border: solid 1px #fff;
+}
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .top-image-text {
+    color: #fff;
+    font-size: 4rem;
+    text-transform:uppercase;
+    font-weight: 800;
+  }
+
+.top-para {
+    padding-top: 2%;
+    font-size: 2rem;
+    color: #fff;
+}
+.button-right {
+    margin-left: 50px;
+}
+.first-color {
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    background-color: rgb(255, 156, 1);
+    border :  rgb(255, 156, 1);
+    font-weight: 600;
+}
+.first-color:hover {
+    background-color: #fff;
+    border :  rgb(255, 156, 1) !important;
+    color: rgb(255, 156, 1);
+    font-weight: 600;
+}
+.top-button {
+    padding-top: 5%;
+}
+.second-color {
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    background-color: rgb(43, 150, 206);
+    border :  rgb(43, 150, 206);
+    font-weight: 600;
+}
+.second-color:hover {
+    background-color: #fff;
+    border :  rgb(11, 130, 193);
+    color :  rgb(11, 130, 193);
+    font-weight: 600;
+}
+
+.centered-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .centered-middle-h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .centered-middle-h2-others {
+    font-size: 2.5rem;
+    color: #2a94ca;
+    text-transform: uppercase;
+  }
+  .centered-middle-p {
+    font-size: 1.8rem;
+    color: #fff;
+    display: inline;
+  }
+  .centered-middle-p-others {
+    font-size: 1.8rem;
+    color: #2a94ca;
+    display: inline;
+  }
+  .bg-4 {
+      background: #333333;
+      color: #fff;
+      padding-top: 2%; 
+      padding-bottom: 2%; 
+  }
+
+  @media only screen and (max-width:349px) {
+    .top-image-text {
+      font-size: 1rem !important;
+      text-transform:uppercase;
+      font-weight: 800; 
+        
+      }
+      .top-para{
+        padding: 0;
+        margin-bottom: 0;
+      }
+      .top-button{
+        padding: 0;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .first-color {
+        padding: .5rem 1rem !important;
+        border-radius: 50px;
+        background-color: rgb(255, 156, 1);
+        border :  rgb(255, 156, 1);
+        font-weight: 600;
+        font-size: 0.5rem;
+    }
+    .second-color {
+        padding: .5rem 1rem !important;
+        border-radius: 50px;
+        background-color: rgb(43, 150, 206);
+        border :  rgb(43, 150, 206);
+        font-weight: 600;
+        font-size: 0.5rem;
+    }
+
+    .centered-middle-h2 {
+      font-size: 1.8rem;
+    }
+    .centered-middle-p {
+      font-size: 1.5rem;
+    }
+    .top-para {
+        width: 340px;
+        padding-top: 0;
+        font-size: 1rem;
+        color: #fff;
+    }
+    .top-button {
+        padding-top: 2%;
+    }
+    .refer-click {
+      width: 120px;
+      height: 30px;
+      font-size: 10px;
+    }
+  }
+ 
+  @media only screen and (min-width: 350px) and (max-width: 600px) {
+    .top-image-text {
+      font-size: 1rem !important;
+      text-transform:uppercase;
+      font-weight: 800; 
+        
+      }
+      .top-para{
+        padding: 0;
+        margin-bottom: 0;
+      }
+      .top-button{
+        padding: 0;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .first-color {
+        padding: .5rem 1rem !important;
+        border-radius: 50px;
+        background-color: rgb(255, 156, 1);
+        border :  rgb(255, 156, 1);
+        font-weight: 600;
+        font-size: 0.5rem;
+    }
+    .second-color {
+        padding: .5rem 1rem !important;
+        border-radius: 50px;
+        background-color: rgb(43, 150, 206);
+        border :  rgb(43, 150, 206);
+        font-weight: 600;
+        font-size: 0.5rem;
+    }
+
+    .centered-middle-h2 {
+      font-size: 1.8rem;
+    }
+    .centered-middle-p {
+      font-size: 1.5rem;
+    }
+    .top-para {
+        width: 340px;
+        padding-top: 0;
+        font-size: 1rem;
+        color: #fff;
+    }
+    .top-button {
+        padding-top: 2%;
+    }
+    .refer-click {
+      width: 130px;
+      height: 35px;
+      font-size: 12px;
+    }
+  }
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+  .top-image-text {
+    font-size: 25px;
+    text-transform:uppercase;
+    font-weight: 800;   
+    }
+
+    .top-para {
+      font-size: 18px;
+      color: #fff;
+  }
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .top-button {
+      padding-top: 0;
+  }
+  .refer-click {
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
+    padding: 0;
+  }
+  .first-color {
+    padding: 0;
+  }
+  .second-color {
+    padding: 0;
+  }
+  .centered-middle-h2 {
+    font-size: 1.7rem;
+  }
+  .centered-middle-p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and ( min-width: 801px) and (max-width: 1300px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    /* left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+  .top-image-text {
+    color: #fff;
+    font-size: 35px;
+    text-transform:uppercase;
+    font-weight: 800;
+  }
+
+.top-para {
+    font-size: 30px;
+    color: #fff;
+}
+.top-button {
+  padding-top: 0;
+}
+.refer-click {
+  width: 150px;
+  height: 50px;
+  font-size: 13px;
+  padding: 0;
+}
+}
+
+@media only screen and ( min-width: 1301px) {
+  .centered {
+    position: absolute;
+    top: 50%;
+    /* left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+  .top-image-text {
+    color: #fff;
+    font-size: 45px;
+    text-transform:uppercase;
+    font-weight: 800;
+  }
+
+.top-para {
+    font-size:40px;
+    color: #fff;
+}
+}

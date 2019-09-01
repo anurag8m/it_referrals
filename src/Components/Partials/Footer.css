@@ -1,0 +1,133 @@
+.page-footer {
+    background-color: #333;
+}
+
+.aboutus h5 {
+    color: white;
+    font-size: 18px;
+}
+
+.aboutus p {
+    color: #ccc;
+    font-size: 15px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+/* .sitemap {
+    margin: 0;
+} */
+.myft{width: 100%;background:#000;}
+.sitemap h5{
+    color: white;
+    font-size: 18px;
+}
+
+.sitemap ul li {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.list-unstyled li a {
+    color: #ccc;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.itreferral h2 {
+    color: white;
+    font-size: 32px;
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+
+.itreferral p {
+    width: 250px;
+    color: white;
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+.fa-icon {
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 2px #888;
+}
+  
+.fa:hover { 
+  opacity: 0.7;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.social {
+  margin: 10px 0;
+}
+
+.social a {
+  margin: 0 10px 0 0;
+}
+
+@media only screen and ( max-width: 767px) {
+    .itreferral h2 {
+        padding-left: 0px;
+        
+    }
+    
+    .itreferral p {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 991px){
+    .itreferral h2 {
+        margin-top: 80px;
+        margin-left: 40px;
+    }
+
+    .sitemap {
+        margin-left: 50px;
+        padding: 0;
+    }
+    
+    .itreferral p {
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .itreferral h2 {
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+
+    .sitemap {
+        margin-left: 100px;
+    }
+    
+    .itreferral p {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .itreferral h2 {
+        margin-top: 80px;
+        margin-left: 130px;
+    }
+
+    .sitemap {
+        margin-left: 130px;
+    }
+    
+    .itreferral p {
+        margin-left: 130px;
+    }
+}

@@ -1,0 +1,144 @@
+.search-bar {
+    width: 110px;
+    height: 40px;
+    background: #2b96cd;
+    border: none;
+    box-shadow: none;
+    border-radius: 25px;
+    padding-left: 22px;
+}
+
+.candidate-text {
+    padding-top: 20px;
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+.candidate-para {
+    color: white;
+    font-size: 16px;
+}
+
+.jobs-button {
+    width: 110px;
+}
+
+/* .job-button {
+    position: absolute;
+    left: 80%;
+} */
+
+::placeholder {
+    font-size: 13px;
+    color: white;
+    opacity: 1;
+  }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.seacrch-icon:before {
+    content: "\f002";
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+@media screen and (max-width:320px){
+    .search-bar {
+        width: 130px;
+        height: 40px;
+        background: #2b96cd;
+        border: none;
+        box-shadow: none;
+        border-radius: 25px;
+        padding-left: 30px;
+    }    
+    
+    .seacrch-icon:before {
+        position: absolute;
+        top: 30%;
+        left: 8%;
+    }
+    .heading {
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (min-width:321px) and (max-width: 430px) {
+
+    .search-bar {
+        width: 130px;
+        height: 40px;
+        background: #2b96cd;
+        border: none;
+        box-shadow: none;
+        border-radius: 25px;
+        padding-left: 30px;
+    }    
+    
+    .seacrch-icon:before {
+        position: absolute;
+        top: 30%;
+        left: 7%;
+    }
+    .heading {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width:431px) and (max-width: 767px) {
+    .search-bar {
+        width: 130px;
+        height: 40px;
+        background: #2b96cd;
+        border: none;
+        box-shadow: none;
+        border-radius: 25px;
+        padding-left: 35px;
+    }    
+    
+    .seacrch-icon:before {
+        position: absolute;
+        top: 30%;
+        left: 6%;
+    }
+
+    .heading {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 992px) {
+    .search-bar {
+        width: 110px;
+        height: 40px;
+        background: #2b96cd;
+        border: none;
+        box-shadow: none;
+        border-radius: 25px;
+        padding-left: 20px;
+    }    
+    
+    .seacrch-icon:before {
+        font-size: 14px;
+        position: absolute;
+        top: 25%;
+        left: 12%;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .seacrch-icon:before {
+        position: absolute;
+        top: 25%;
+        left: 7%;
+    }
+}
